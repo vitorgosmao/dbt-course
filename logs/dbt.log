@@ -1,0 +1,28 @@
+[0m16:26:31.181666 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C7672F64B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C7670D29C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C7670D1A60>]}
+
+
+============================== 16:26:31.186681 | 71c2aefe-17a1-45ec-8a68-c8e50831bb07 ==============================
+[0m16:26:31.186681 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:26:31.186681 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Vitor\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init --skip-profile-setup airbnb', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m16:26:31.250496 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\Vitor\.dbt
+[0m16:26:31.254005 [debug] [MainThread]: Starter project path: C:\Users\Vitor\Documents\GitHub\dbt-course\.venv\Lib\site-packages\dbt\include\starter_project
+[0m16:26:31.274868 [info ] [MainThread]: 
+Your new dbt project "airbnb" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:26:31.275661 [debug] [MainThread]: Command `dbt init` succeeded at 16:26:31.275661 after 0.20 seconds
+[0m16:26:31.276668 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C7672F64B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C76874E960>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C76757FBC0>]}
+[0m16:26:31.276668 [debug] [MainThread]: Flushing usage events
+[0m16:26:33.239549 [debug] [MainThread]: An error was encountered while trying to flush usage events
