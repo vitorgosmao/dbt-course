@@ -26,3 +26,16 @@ Happy modeling!
 [0m16:26:31.276668 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C7672F64B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C76874E960>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C76757FBC0>]}
 [0m16:26:31.276668 [debug] [MainThread]: Flushing usage events
 [0m16:26:33.239549 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m01:53:48.045779 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 01:53:48.099898 | 2e2a77b7-233f-4df7-b648-159c1aac8788 ==============================
+[0m01:53:48.099898 [info ] [MainThread]: Running with dbt=1.11.7
+[0m01:53:48.100907 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Vitor\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m01:53:48.101907 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Vitor\Documents\GitHub\dbt-course\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m01:53:48.102907 [debug] [MainThread]: Command `dbt run` failed at 01:53:48.102907 after 0.13 seconds
+[0m01:53:48.102907 [debug] [MainThread]: Flushing usage events
